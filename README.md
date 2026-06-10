@@ -91,7 +91,7 @@ Before running this project, make sure you have the following installed:
 | Docker Desktop | latest | https://docker.com/products/docker-desktop |
 | Ollama | latest | https://ollama.com/download |
 
-## Ollama Setup
+### Ollama Setup
 
 After installing Ollama, pull the required models:
 
