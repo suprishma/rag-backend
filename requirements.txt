@@ -1,0 +1,35 @@
+# Web framework
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+python-multipart==0.0.12
+
+# Settings & validation
+pydantic==2.10.3
+pydantic-settings==2.6.1
+
+# OpenAI
+openai==1.57.2
+
+# Vector database
+qdrant-client==1.12.1
+
+# Redis
+redis[hiredis]==5.2.1
+
+# SQL (async)
+sqlalchemy[asyncio]==2.0.36
+asyncpg==0.30.0
+alembic==1.14.0
+
+# PDF parsing
+PyMuPDF==1.24.13
+
+# Text / tokenisation
+tiktoken==0.8.0
+numpy==2.2.0
+
+# Utilities
+tenacity==9.0.0
+structlog==24.4.0
+python-dotenv==1.0.1
+httpx==0.27.2
