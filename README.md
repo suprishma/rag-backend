@@ -81,7 +81,33 @@ app/
 | `GET` | `/api/v1/chat/bookings/{booking_id}` | Get single booking |
 
 ## Quick Start
+### Prerequisites
 
+Before running this project, make sure you have the following installed:
+
+| Tool | Version | Download |
+|---|---|---|
+| Python | 3.10+ | https://python.org |
+| Docker Desktop | latest | https://docker.com/products/docker-desktop |
+| Ollama | latest | https://ollama.com/download |
+
+## Ollama Setup
+
+After installing Ollama, pull the required models:
+
+```bash
+# Pull chat model
+ollama pull llama3.2
+
+# Pull embedding model
+ollama pull nomic-embed-text
+
+# Verify models are ready
+ollama list
+```
+Make sure Ollama is running before starting the server.
+
+### Step-up
 ```bash
 # 1. Copy and fill env vars
 cp .env.example .env
